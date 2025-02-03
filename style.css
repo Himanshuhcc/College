@@ -1,0 +1,26 @@
+#new{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    
+}
+
+h1,h2,h3,h4,h5 {
+    background-color: white;
+    color: #333;
+    text-align: center;
+}
+
+.box{
+    border: 10px solid #eee5e5;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    background-color: #000;
+}
+

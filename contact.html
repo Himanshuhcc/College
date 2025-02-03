@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FFFDD0;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 50%;
+      margin: auto;
+      overflow: hidden;
+      box-shadow: black;
+    }
+    header {
+      text-align: center;
+      background: #333;
+      color: #fff;
+      padding-top: 30px;
+      min-height: 70px;
+      border-bottom: #77aaff 3px solid;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+    header ul {
+      padding: 0;
+      list-style: none;
+    }
+    header li {
+      float: left;
+      display: inline;
+      padding: 0 20px 0 20px;
+    }
+    .main {
+      padding: 20px;
+      background: #e8e8e8;
+      margin-top: 20px;
+    }
+    .main h1 {
+      text-align: center;
+      color: #333;
+    }
+    .main form {
+      width: 100%;
+      padding: 10px;
+      background: #f4f4f4;
+      border: 1px solid #ccc;
+    }
+    .main form input, .main form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+    }
+    .main form input[type="submit"] {
+      background: #0bb54c;
+      color: #f7e7e7;
+      border: 0;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome!</h1>
+    </div>
+  </header>
+  <div class="container main">
+    <h1>Contact Us</h1>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" >
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" >
+      <label for="message">Message</label>
+      <input type="message" id="message" name="message" >     
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
